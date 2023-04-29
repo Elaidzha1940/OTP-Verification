@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AutoOTP: View {
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                OTPVerificationView()
+          
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AutoOTP_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        self.devices {
+            AutoOTP()
+        }
     }
 }

@@ -11,6 +11,7 @@
 		E433BE9F29FD888D00ED0BE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E433BE9E29FD888D00ED0BE0 /* ContentView.swift */; };
 		E433BEA129FD888E00ED0BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E433BEA029FD888E00ED0BE0 /* Assets.xcassets */; };
 		E433BEA529FD888E00ED0BE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E433BEA429FD888E00ED0BE0 /* Preview Assets.xcassets */; };
+		E433BEAC29FD890900ED0BE0 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E433BEAB29FD890900ED0BE0 /* OTPVerificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E433BEA029FD888E00ED0BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E433BEA229FD888E00ED0BE0 /* OTP_Verification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OTP_Verification.entitlements; sourceTree = "<group>"; };
 		E433BEA429FD888E00ED0BE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E433BEAB29FD890900ED0BE0 /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E433BEA029FD888E00ED0BE0 /* Assets.xcassets */,
 				E433BEA229FD888E00ED0BE0 /* OTP_Verification.entitlements */,
 				E433BEA329FD888E00ED0BE0 /* Preview Content */,
+				E433BEAB29FD890900ED0BE0 /* OTPVerificationView.swift */,
 			);
 			path = "OTP Verification";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E433BEAC29FD890900ED0BE0 /* OTPVerificationView.swift in Sources */,
 				E433BE9F29FD888D00ED0BE0 /* ContentView.swift in Sources */,
 				E433BE9D29FD888D00ED0BE0 /* OTP_VerificationApp.swift in Sources */,
 			);
