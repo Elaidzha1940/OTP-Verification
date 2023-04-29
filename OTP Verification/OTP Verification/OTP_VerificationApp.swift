@@ -11,7 +11,7 @@ import SwiftUI
 struct OTP_VerificationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AutoOTP()
         }
     }
 }

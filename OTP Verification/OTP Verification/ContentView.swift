@@ -11,16 +11,14 @@ struct AutoOTP: View {
     var body: some View {
         
         VStack {
-                OTPVerificationView()
-          
+            OTPVerificationView()
+            
         }
     }
 }
 
 struct AutoOTP_Previews: PreviewProvider {
     static var previews: some View {
-        self.devices {
-            AutoOTP()
-        }
+        AutoOTP()
     }
 }

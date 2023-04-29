@@ -83,9 +83,7 @@ struct OTPVerificationView: View {
 
 struct OTPVerificationView_Previews: PreviewProvider {
     static var previews: some View {
-        self.devices {
             AutoOTP()
-        }
     }
 }
 
