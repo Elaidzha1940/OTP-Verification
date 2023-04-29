@@ -1,9 +1,13 @@
+//  /*
 //
-//  ContentView.swift
-//  OTP Verification
+//  Project: OTP Verification
+//  File: ContentView.swift
+//  Created by: Elaidzha Shchukin //
+//  Date: 30.04.2023
 //
-//  Created by Elaidzha Shchukin on 30.04.2023.
+//  Status
 //
+//  */
 
 import SwiftUI
 

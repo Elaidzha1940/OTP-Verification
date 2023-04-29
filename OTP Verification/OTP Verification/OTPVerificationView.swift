@@ -1,9 +1,13 @@
+//  /*
 //
-//  OTPVerificationView.swift
-//  OTP Verification
+//  Project: OTP Verification
+//  File: OTPVerificationView.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 30.04.2023
 //
-//  Created by Elaidzha Shchukin on 30.04.2023.
+//  Satatus
 //
+//  */
 
 import SwiftUI
 
@@ -77,7 +81,7 @@ struct OTPVerificationView: View {
                 .frame(height: 1)
             //.stroke(.blue, lineWidth: 1)
         )
-        //.frame(maxWidth: .infinity)
+        .frame(maxWidth: .infinity)
     }
 }
 
